@@ -1,23 +1,21 @@
 import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
 import tw from 'twrnc';
+import Button from './Button';
 
 const Buttons = () => {
     return (
         <View>
             <ScrollView horizontal >
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
-                <Text style={tw`bg-blue-500 mr-2 p-3 px-5 text-white rounded-xl`}>button</Text>
+
+                <Button Title="Action"/>
+                <Button Title="Adventure"/>
+                <Button Title="Games"/>
+                <Button Title="Puzzels"/>
+                <Button Title="Mind Map"/>
+                <Button Title="Bank"/>
+                <Button Title="Car Race"/>
+                <Button Title="Subway"/>
             </ScrollView>
             
         </View>

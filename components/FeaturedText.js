@@ -5,7 +5,7 @@ import tw from 'twrnc'
 const FeaturedText = () => {
   return (
     <View>
-      <Text style={tw`font-bold text-xl`}>Featured Games</Text>
+      <Text style={tw`font-bold text-xl m-3`}>Featured Games</Text>
     </View>
   )
 }
