@@ -3,6 +3,9 @@ import React from 'react';
 import tw from 'twrnc';
 import Menu from '../assets/icons/menu';
 import Bell from '../assets/icons/bell';
+import Heart from '../assets/icons/heart';
+import Download from '../assets/icons/download';
+import Star from '../assets/icons/star';
 
 const index = () => {
     return (
@@ -30,13 +33,35 @@ const index = () => {
             <View>
                 {/* Card */}
                 <View style={tw`h-[250px] w-3/4`}>
-                    <Image 
-                        source={require('../assets/images/freeFire.png')} 
-                        style={tw`h-[100%] w-[100%] rounded-xl`} 
+                    <Image
+                        source={require('../assets/images/freeFire.png')}
+                        style={tw`h-[100%] w-[100%] rounded-xl`}
                     />
+
+                    <View style={tw`bg-[rgba(000,000,000,0.3)] h-[100%] w-[100%] rounded-xl absolute`}></View>
+
+                    <View style={tw`absolute top-5 right-5`}><Heart /></View>
+                    <View style={tw`absolute bottom-5 left-5`}>
+                        <View style={tw`flex-row`}>
+                            <Star/>
+                            <Star/>
+                            <Star/>
+                            <Star/>
+                            <Star/>
+                        </View>
+                        <Text style={tw`text-white text-2xl`}>Free Fire</Text>
+                        <View style={tw`flex-row`}>
+                            <Download />
+                            <Text style={tw`text-white`}>100k Downloads</Text>
+
+                        </View>
+                    </View>
                 </View>
                 {/* Card */}
             </View>
+
+
+            
         </View>
     );
 };
