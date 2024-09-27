@@ -6,7 +6,7 @@ const Title = () => {
     return (
         <View>
             <Text style={tw`text-5xl font-bold mb-3 mt-5`}>
-                Browse Games
+                Top Games
             </Text>
         </View>
     )
