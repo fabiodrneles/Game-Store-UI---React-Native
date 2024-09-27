@@ -1,6 +1,14 @@
+# Modelo de App para Loja de games.
+## Este projeto apresenta uma interface para um aplicativo de loja de games mobile, desenvolvido utilizando React Native. O objetivo deste repositório não é fornecer uma aplicação completa, mas sim oferecer um modelo funcional que pode ser usado como peça de portfólio ou como ponto de partida para o desenvolvimento de outros projetos. Este template exemplifica as melhores práticas em design e desenvolvimento de interfaces móveis, destacando-se pela sua estrutura limpa e bem-organizada, e pela facilidade de customização.
+
+# Game Store App.
+## This project presents an interface for a mobile game store app, developed using React Native. The goal of this repository is not to provide a complete application, but rather to offer a functional template that can be used as a portfolio piece or a starting point for developing other projects. This template demonstrates best practices in mobile interface design and development, featuring a clean, well-organized structure and easy customization.
+
 [Gravação de tela de 27-09-2024 17:37:36.webm](https://github.com/user-attachments/assets/bf1ec7ee-6ffc-4e78-9094-819738c2b5a3)
 
 ![image](https://github.com/user-attachments/assets/8b0ead5c-1cab-45c3-89eb-ef505a89f328)
+
+
 
 
 
